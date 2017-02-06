@@ -1,0 +1,26 @@
+{
+  "name": "log4koa",
+  "version": "0.0.1",
+  "description": "provider logger for koa",
+  "main": "log4koa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josudoey/log4koa.git"
+  },
+  "keywords": [
+    "koa",
+    "log4js"
+  ],
+  "author": "JoeyFang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josudoey/log4koa/issues"
+  },
+  "homepage": "https://github.com/josudoey/log4koa#readme",
+  "dependencies": {
+    "log4js": "^1.1.0"
+  }
+}
