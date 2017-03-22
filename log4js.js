@@ -1,4 +1,3 @@
-var _require = require;
 var path = require('path');
 var log4js = require('log4js');
 var _getLogger = log4js.getLogger.bind(log4js);

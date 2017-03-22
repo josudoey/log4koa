@@ -9,10 +9,10 @@ module.exports = function (log) {
     var self = this;
     this.res.on('finish', function () {
       var dt = Date.now() - t;
-      var msg = self.request.ip + ' - ' + self.method + ' ' + self.path + ' ' + self.response.status + ' time:' + dt;
+      var msg = self.request.ip + ' - ' + self.method + ' ' + self.originalUrl + ' ' + self.response.status + ' time:' + dt;
       log(msg);
     });
     yield next;
   };
-}
+};
 
